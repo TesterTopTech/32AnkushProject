@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login_Invent_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login_Invent_Test(failed)">
+    <classes>
+      <class name="testCases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="verifyURLOfApplication"/>
+        </methods>
+      </class> <!-- testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Login_Invent_Test(failed) -->
+</suite> <!-- Failed suite [Login_Invent_Suite] -->
